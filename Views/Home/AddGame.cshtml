@@ -1,0 +1,27 @@
+@model mom2.Models.Games
+
+@{
+    ViewData["Title"] = "Lägg till";
+
+
+
+    var game = Model;
+
+}
+<div class="text-center">
+
+    <h2>Lägg till spel</h2>
+
+    <div>
+        <h4>Du har nu lagt till @Html.DisplayFor(model => model.Name)</h4>
+
+        <p><strong>Titel: </strong>@ViewBag.Name</p>
+        <p><strong>Utvecklare: </strong>@ViewBag.Author</p>
+        <p><strong>Utgivningsår: </strong>@ViewBag.Year</p>
+
+
+    </div>
+
+    <a asp-action="Index">Gå tillbaka</a>
+
+</div>

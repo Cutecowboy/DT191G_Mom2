@@ -1,0 +1,51 @@
+﻿@model IEnumerable<mom2.Models.Games>
+
+@{
+    ViewData["Title"] = "Home Page";
+
+    var game = Model;
+    Games games = new();
+}
+@functions {
+    public bool DelGame()
+    {
+        Console.Write("hello");
+        return true;
+    }
+}
+
+<div class="text-center">
+    <h1 class="display-4">Välkommen</h1>
+
+    <p>Här kommer du kunna se alla spel uppradade</p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Namn</th>
+                <th scope="col">Utvecklare</th>
+                <th scope="col">År</th>
+                <th scope="col">Ta bort</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var g in game)
+            {
+                <tr>
+                    <th scope="row">@g.Id</th>
+                    <td>@g.Name</td>
+                    <td>@g.Author</td>
+                    <td>@g.Year</td>
+                    <td>
+                        <a href="Delete/@g.Id">Ta bort</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+
+</div>

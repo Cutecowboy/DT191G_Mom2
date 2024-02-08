@@ -1,0 +1,20 @@
+[
+    {
+        "Id" : 1,
+        "Name": "World of Warcraft",
+        "Author": "Blizzard Entertainment",
+        "Year": 2005
+    },
+    {
+        "Id" : 2,
+        "Name": "FIFA 2024",
+        "Author": "EA Games",
+        "Year": 2023
+    },
+    {
+        "Id" : 3,
+        "Name": "Palworld",
+        "Author": "Pocket Pair",
+        "Year": 2024
+    }
+]

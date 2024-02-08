@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "0A2CWuNIdU6FjCW6kQw7igcGsj7ExRYwcKOvdFUQPmknA+If7w8DS7tgvvnu+sCwhxL/I5KVjad00hrhkS792Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\navid\\Documents\\MIUN\\DT191G\\mom2\\mom2.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\navid\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
